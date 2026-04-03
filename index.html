@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Biomedical Analytics Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>AI Biomedical Health Monitoring System</h1>
+
+</header>
+
+<div class="glass">
+
+<h2>Patient Data Input</h2>
+
+<input type="number" id="age" placeholder="Age">
+
+<input type="number" id="heart" placeholder="Heart Rate">
+
+<input type="number" id="oxygen" placeholder="Oxygen Level">
+
+<input type="number" id="temp" placeholder="Temperature">
+
+<button onclick="addPatient()">Analyze Patient</button>
+
+</div>
+
+
+<div class="dashboard">
+
+<div class="card">
+
+<h3>Heart Rate Analysis</h3>
+
+<div id="heartChart"></div>
+
+</div>
+
+
+<div class="card">
+
+<h3>Oxygen Level Analysis</h3>
+
+<div id="oxygenChart"></div>
+
+</div>
+
+
+<div class="card">
+
+<h3>COVID Risk Distribution</h3>
+
+<div id="riskChart"></div>
+
+</div>
+
+</div>
+
+
+<button class="report" onclick="generateReport()">Generate PDF Report</button>
+
+
+<script src="script.js"></script>
+<script src="report.js"></script>
+
+</body>
+
+</html>
