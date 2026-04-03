@@ -94,20 +94,6 @@ report.js
 dataset.json
 README.md
 
-# 🚀 How to Run the Project
-
-1. Clone the repository from GitHub
-
-```
-git clone https://github.com/your-username/Biomedical_AI_Dashboard.git
-```
-
-2. Open the project folder in VS Code
-
-3. Open **index.html** in a browser
-
-or use **Live Server** extension in VS Code.
-
 # 📊 Example Use Case
 
 A healthcare analyst can:
